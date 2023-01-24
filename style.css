@@ -1,0 +1,59 @@
+  
+/* inside style.css */
+
+
+.body {
+    text-align: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-block {
+    background-color: rgb(160, 160, 160);
+    margin: 40px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.header {
+    background-color: rgb(15, 156, 156);
+    color: white;
+    padding: 30px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.quote {
+    margin-top: 30px;
+}
+
+.highlight {
+    background-color: rgb(212, 247, 86);
+}
+  
+.error {
+  background-color: lightcoral;
+  border: red;
+}
+
+.input-start {
+  margin-top: 30px;
+}
+
+button {
+    background-color: rgb(15, 156, 156); 
+    border: none;
+    border-radius: 5px;
+    width: 40px;
+    padding: 4px;
+    color: white;
+    transition: opacity 0.18s;
+  }
+  button:hover {
+    opacity: 0.7;
+  }
+  button:active {
+    opacity: 0.5;
+  }
